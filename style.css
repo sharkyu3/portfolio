@@ -99,3 +99,20 @@ h4{
 	margin-bottom: 3%;
 	font-size: 120%
 }
+
+h2{
+	font-family: 'Lato', sans-serif;
+}
+
+#own-pic{
+	height: 150px;
+	border-radius: 19%
+}
+
+.title{
+	margin-bottom: 3%;
+}
+
+#self-intro{
+	padding: 2%;
+}
