@@ -33,13 +33,13 @@ body{
 .nav-links{
 	color: #d8d6d6;
 	text-decoration: none;
-	font-size: 125%;
+	font-size: 105%;
 	margin-right: 4%;
 }
 
 #nav-name{
 	font-weight: bold;
-	font-size: 160%;
+	font-size: 130%;
 }
 
 .nav-links:hover{
@@ -71,7 +71,7 @@ body{
 .contents{
 	padding-top: 50px;
 	text-align: center;
-	height: 100vh;
+	min-height: 100vh
 }
 
 h1{
@@ -100,7 +100,7 @@ h4{
 	font-size: 120%
 }
 
-h2{
+h3{
 	font-family: 'Lato', sans-serif;
 }
 
@@ -115,4 +115,91 @@ h2{
 
 #self-intro{
 	padding: 2%;
+	padding-bottom: 0
+}
+
+.logos{
+	height: 60px;
+}
+
+.logo-holder{
+	font-family: 'Oswald', sans-serif;
+	display: inline-block;
+	margin: 2%;
+}
+
+.skills-row{
+	padding: 0;
+	padding-left: 2%;
+	padding-right: 2%;
+}
+
+#contact{
+	text-align: center
+}
+
+#contact-holder{
+	margin:0 auto;
+}
+
+.detail{
+	text-align:left;
+}
+
+.contact-info{
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.contact-icon{
+	height: 40px;
+	width: 40px;
+	margin-right: 8px;
+	border-radius:5px;
+}
+
+#envelop{
+	height: 30px;
+}
+
+.contact-icon img{
+	color:white;
+}
+
+.contact-detail{
+	vertical-align: middle;
+	font-family: 'Lato', sans-serif;
+	color: black;
+}
+
+.contact-detail:hover{
+	text-decoration: underline;
+	font-weight: bold;
+}
+
+
+/*  MEDIA QUERIES  */
+
+@media (min-width:600px){
+	.nav-links{
+		font-size: 125%;
+	}
+
+	#nav-name{
+		font-size: 160%;
+	}
+}
+
+@media (min-width:1025px){
+	.skills-row{
+		width:50%;
+		padding: 0;
+		padding-left: 2%;
+		padding-right: 2%;
+		margin: 0 auto;
+	}
+
+	.logo-holder{
+		margin: 4%;
+	}
 }
