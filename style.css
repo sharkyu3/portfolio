@@ -286,6 +286,10 @@ h3{
 		margin-bottom: 2%;
 	}
 
+	#position{
+		font-size: 165%
+	}
+
 	.project-holder{
 		width: 80%;
 	}
@@ -301,6 +305,34 @@ h3{
 }
 
 @media (min-width:1025px){
+	.nav-links{
+		font-size: 140%;
+	}
+
+	#nav-name{
+		font-size: 180%;
+	}
+
+	h1{
+		font-size: 350%
+	}
+
+	.title{
+		font-size: 270%;
+	}
+
+	#quote{
+		font-size: 140%
+	}
+
+	#intro h4{
+		font-size: 115%;
+	}
+
+	#self-intro h3{
+		font-size: 170%;
+	}
+
 	.skills-row{
 		width:50%;
 		padding: 0;
@@ -347,5 +379,9 @@ h3{
 
 	.tech{
 		font-size: 125%
+	}
+
+	.contact-detail{
+		font-size: 150%;
 	}
 }
