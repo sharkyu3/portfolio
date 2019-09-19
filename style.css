@@ -144,6 +144,7 @@ h3{
 
 .detail{
 	text-align:left;
+	margin-bottom:18px;
 }
 
 .contact-info{
@@ -155,15 +156,10 @@ h3{
 	height: 40px;
 	width: 40px;
 	margin-right: 8px;
-	border-radius:5px;
 }
 
 #envelop{
 	height: 30px;
-}
-
-.contact-icon img{
-	color:white;
 }
 
 .contact-detail{
@@ -177,6 +173,80 @@ h3{
 	font-weight: bold;
 }
 
+#portfolio-holder{
+	margin:0 auto;
+	width: 100%;
+}
+
+.project-holder{
+	width: 96%;
+	margin: 0 auto;
+	text-align: left;
+	margin-bottom: 10%
+}
+
+.image-prj img{
+	max-width: 90%;
+	vertical-align: middle
+}
+
+.image-prj{
+	display: inline-block;
+	width: 25%;
+	text-align: center;
+	line-height: 100%
+}
+
+.info-prj{
+	display: inline-block;
+	vertical-align: top;
+	text-align: left;
+	width: 73%
+}
+
+.title-prj{
+	font-family: 'Oswald', sans-serif;
+	margin-bottom: 3%
+}
+
+.title-prj h2{
+	margin: 0;
+}
+
+.title-prj a{
+	text-decoration: none;
+	color: grey
+}
+
+.title-prj a:hover{
+	color: black;
+}
+
+.summary-prj{
+	font-family: 'Lato', sans-serif;
+	margin-bottom: 3%
+}
+
+.technologies{
+	font-family: 'Oswald', sans-serif;
+	font-weight: bold;
+	margin-right: 1%
+}
+
+.tech{
+	display: inline-block;
+	font-family: 'Oswald', sans-serif;
+	border: 1px solid #a7a5a5;
+	padding-right: 2%;
+	padding-left: 2%;
+	margin-bottom: 1.5%
+}
+
+.link-prj{
+	margin: 0;
+	font-size: 88%;
+	display: block
+}
 
 /*  MEDIA QUERIES  */
 
@@ -187,6 +257,23 @@ h3{
 
 	#nav-name{
 		font-size: 160%;
+	}
+
+	.title{
+		margin-bottom: 2%;
+	}
+
+	.project-holder{
+		width: 80%;
+	}
+
+	.image-prj img{
+		max-width: 60%;
+		vertical-align: middle
+	}
+
+	.technologies{
+		display: inline-block
 	}
 }
 
@@ -201,5 +288,41 @@ h3{
 
 	.logo-holder{
 		margin: 4%;
+	}
+
+	.contact-icon{
+		height: 50px;
+		width: 50px;
+		margin-right: 10px;
+	}
+
+	#envelop{
+		height: 40px;
+	}
+
+	.detail{
+		margin-bottom:20px;
+		margin-top:20px;
+	}
+
+	.title-prj{
+		font-size: 140%
+	}
+
+	.link-prj{
+		font-size: 85%;
+		margin-bottom: 1%;
+	}
+
+	.summary-prj{
+		font-size: 135%;
+	}
+
+	.technologies{
+		font-size:130%;
+	}
+
+	.tech{
+		font-size: 125%
 	}
 }
