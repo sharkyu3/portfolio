@@ -360,25 +360,29 @@ h3{
 		margin-top:30px;
 	}
 
+	.title-prj h2{
+		font-size: 210%
+	}
+
 	.title-prj{
 		font-size: 140%
 	}
 
 	.link-prj{
-		font-size: 85%;
+		font-size: 90%;
 		margin-bottom: 1%;
 	}
 
 	.summary-prj{
-		font-size: 135%;
+		font-size: 180%;
 	}
 
 	.technologies{
-		font-size:130%;
+		font-size:160%;
 	}
 
 	.tech{
-		font-size: 125%
+		font-size: 150%
 	}
 
 	.contact-detail{
